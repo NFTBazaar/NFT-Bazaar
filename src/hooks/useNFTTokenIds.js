@@ -29,7 +29,13 @@ export const useNFTTokenIds = (addr) => {
         setFetchSuccess(true);
         for (let NFT of NFTs) {
           if (NFT?.metadata) {
-            NFT.metadata = JSON.parse(NFT.metadata);
+            try{
+              NFT.metadata = JSON.parse(NFT.metadata);
+            }
+            catch(err){
+              console.log("Error in: ",NFT)
+            }
+            console.log("fetched data: ", NFT);
             NFT.image = resolveLink(NFT.metadata?.image);
           } else if (NFT?.token_uri) {
             try {

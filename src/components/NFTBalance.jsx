@@ -47,6 +47,8 @@ function NFTBalance() {
       },
     };
 
+    console.log(ops);
+
     await contractProcessor.fetch({
       params: ops,
       onSuccess: () => {
