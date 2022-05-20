@@ -29,5 +29,9 @@ body {
   margin-top: 100px;
 }
 .owner-address{
-  color:black;
+  color:white;
+}
+
+.owner-address-card{
+  color:red;
 }

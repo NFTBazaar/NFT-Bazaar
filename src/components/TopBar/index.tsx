@@ -9,7 +9,7 @@ const TopBar = () => {
     <div className="fixed top-0 w-full nav-bar">
       <div className="relative flex w-full items-center px-4  py-4 shadow">
         <Link href="/">
-          <Image src={logo} alt="NFT Bazaar" width={"70px"} height={"70px"} />
+          <Image src={logo} alt="NFT Bazaar" width={"100px"} height={"100px"} />
         </Link>
         <div className="flex-grow">
           <NavBar />

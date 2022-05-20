@@ -12,7 +12,7 @@ const AddressAvatar = ({ address }: AddressAvatarProps) => {
   return (
     <div className="flex h-10 items-center text-white">
       <Blockies seed={address.toLowerCase()} className="mr-2 rounded-md" />
-      <span className="owner-address">{shortAddress}</span>
+      <span className="owner-address-card">{shortAddress}</span>
     </div>
   );
 };
