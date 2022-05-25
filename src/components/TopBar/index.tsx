@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import ConnectButton from "../ConnectButton";
 import NavBar from "./NavBar";
-import logo from "../../static/nftbazaar-logo.png"
+import logo from "../../static/nftbazaar.png"
 
 const TopBar = () => {
   return (
