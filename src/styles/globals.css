@@ -5,7 +5,7 @@
 html,
 body {
   @apply m-0 h-screen w-screen overflow-hidden p-0;
-  background-color: #064663;
+  background-color: #ffffff;
 }
 
 #__next {
@@ -13,7 +13,7 @@ body {
 }
 
 .nav-bar{
-  background-color: #041C32;
+  background-color: #000000;
 }
 
 .catalogue{
@@ -27,4 +27,11 @@ body {
 
 .owned{
   margin-top: 100px;
+}
+.owner-address{
+  color:white;
+}
+
+.owner-address-card{
+  color:red;
 }
